@@ -1,0 +1,47 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout">
+
+<Button
+    android:layout_width="180dp"
+    android:layout_height="match_parent"
+    android:onClick="hospital_l"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/lll"
+    android:background="#D81B60"
+    android:textSize="25dp"
+    android:text="hospital"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Conection"
+        android:layout_marginLeft="10dp"
+        android:background="#D81B60"
+        android:textSize="25dp"
+        android:onClick="con"
+        android:id="@+id/button" />
+
+</LinearLayout>
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.alertcar.MapsActivity"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/linearLayout" />
+
+
+</RelativeLayout>

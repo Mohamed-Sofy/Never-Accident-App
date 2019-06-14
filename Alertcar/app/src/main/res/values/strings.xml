@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alert car</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_alert_activity">alert_activity</string>
+
+
+</resources>
